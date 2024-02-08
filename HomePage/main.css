@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&family=Montserrat:wght@500&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.page{
+    display: block;
+    width: 100%;
+    height: 2800px;
+}
+.one-select{
+    background-image: url('../img/jj.jpg');
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 35%;   
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 110px;
+}
+.selectPage{
+    width: 740px;
+    height: 373px;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 80px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-right: 20px;
+    margin-top: 150px;
+}
+.nnImg{
+    display: block;
+    width: 670px;
+    height: 668px;
+    margin-bottom: 100px;
+}
+.two-select{
+    background-image: url('../img/pustota.JPEG');
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 34%;
+    display: flex;
+    justify-content: flex-end;
+}
+.ved{
+    width: 1027px;
+    height: 607px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    margin: 100px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.ved-text{
+   width: 900px;
+   height: 500px;
+   font-weight: 800;
+   padding: 20px;
+   padding-left: 80px ;
+   font-family: 'Montserrat', sans-serif;
+   
+}
+.links{
+    background-color: rgb(26, 26, 26);
+    height: 960px;
+    display: flex;
+    justify-content: center;
+}
+.one{
+    width: 500px ;
+    height: 600px;
+    background-color: rgba(40, 40, 40, 0.745);
+    border-radius: 100px;
+    margin-top: 150px;
+}
+.one-name{
+    font-size: 70px;
+    color: rgb(203, 203, 203);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    background: linear-gradient(180deg, #3b3b3b , #ffffff );
+    -webkit-background-clip: text;
+    color: transparent;
+    
+    
+}
+.one-txt{
+    font-size: 40px ;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    margin-left: 60px ;
+    margin-top: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    
+}
+.two{
+    width: 500px ;
+    height: 600px;
+    background-color: rgba(40, 40, 40, 0.745);
+    border-radius: 100px;
+    margin-top: 150px;
+    margin-left: 50px;
+    
+}
+.two-name{
+    font-size: 70px;
+    color: rgb(203, 203, 203);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    background: linear-gradient(180deg, #3b3b3b , #ffffff );
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+.two-txt{
+    font-size: 40px ;
+    color: rgb(255, 255, 255);
+    width: 420px;
+    margin-left: 50px ;
+    margin-top: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    
+}
+.three{
+    width: 500px ;
+    height: 600px;
+    background-color: rgba(40, 40, 40, 0.745);
+    border-radius: 100px;
+    margin-top: 150px;
+    margin-left: 50px;
+    
+    
+}
+.three-name{
+    font-size: 70px;
+    color: rgb(203, 203, 203);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-left: 6px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #3b3b3b , #ffffff );
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+.three-txt{
+    font-size: 40px ;
+    color: rgb(255, 255, 255);
+    width: 420px;
+    margin-left: 60px ;
+    margin-top: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    
+}
+button{
+    background-color: red;
+    border-radius: 100px;
+    width: 280px;
+    height: 60px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+#oneB{
+    margin: 110px;
+    margin-top: 148px;
+}
+.twoB{
+    margin: 110px;
+    margin-top: 197px;
+}
+.threeB{
+    margin: 110px;
+    margin-top:50px;
+}
