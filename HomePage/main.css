@@ -172,6 +172,10 @@ button{
     height: 60px;
     font-size: 30px;
     color: rgb(255, 255, 255);
+a{
+    text-decoration: none;
+    color: inherit;
+}
 }
 #oneB{
     margin: 110px;

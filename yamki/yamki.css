@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 1600px;
+    width: 1500px;
+}
+#map{
+    height: 700px;
+    width: 100%;
+    position: absolute;
+}
+.yamki-txt{
+    height: 388px;
+    width: 438px;
+    background-color: rgb(248, 248, 248);
+    z-index: 1;
+    position: absolute;
+    margin: 150px;
+    border-radius: 15px;
+}
+#h{
+    font-size: 48px;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+#p{
+    font-size: 22px;
+    width: 360px;
+    margin-left: 20px;
+    color: rgb(50, 50, 50);
+    font-weight: 500;
+}
+.header{
+    width: 200px;
+    height: 41px;
+    background-color: rgb(247, 247, 247);
+    position: absolute;
+    z-index: 2;
+    margin-left: 50%;
+    margin-top: 25px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
