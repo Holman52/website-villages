@@ -18,3 +18,17 @@ function init(){
 
 }
 ymaps.ready(init);
+
+let hist = document.getElementById('history');
+let photo = document.getElementById('photo');
+let dates = document.getElementById('dates');
+let div1 = document.getElementById('text-one');
+let li = document.querySelector('li')
+let div2 = document.getElementById('text-two');
+let div3 = document.getElementById('text-three');
+
+dates.addEventListener('click',()=> {
+  div1.innerHTML = 'В 1911г. в деревне живет максимально количество жителей-206.'
+  div2.innerHTML= ''
+  div3.innerHTML=''
+})

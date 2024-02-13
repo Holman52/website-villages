@@ -9,10 +9,15 @@ body{
     width: 100%;
     position: absolute;
 }
+.container{
+    height: 700px;
+    width: 100%;
+}
+
 .yamki-txt{
     height: 388px;
     width: 438px;
-    background-color: rgb(248, 248, 248);
+    background-color: rgba(248, 248, 248,0.8);
     z-index: 1;
     position: absolute;
     margin: 150px;
@@ -31,7 +36,7 @@ body{
     color: rgb(50, 50, 50);
     font-weight: 500;
 }
-.header{
+header{
     width: 200px;
     height: 41px;
     background-color: rgb(247, 247, 247);
@@ -43,5 +48,25 @@ body{
     text-align: center;
     font-size: 30px;
     font-weight: 900;
-    
+}
+ul{
+    font-size: 38px;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    display: flex;
+    padding-top: 10px;
+}
+li{
+    padding-left: 60px;
+}
+/* #text{
+    width: 700px;
+    height: 700px;
+    background-color: azure;
+} */
+.text{
+    font-size: 35px;
+    text-indent: 20px;
+    padding-top: 30px;
+    padding-left: 50px;
 }
