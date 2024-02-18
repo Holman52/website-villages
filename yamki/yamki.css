@@ -59,14 +59,27 @@ ul{
 li{
     padding-left: 60px;
 }
-/* #text{
-    width: 700px;
-    height: 700px;
-    background-color: azure;
-} */
+.ul{
+   cursor: pointer;
+   display: inline;
+}
 .text{
     font-size: 35px;
     text-indent: 20px;
     padding-top: 30px;
     padding-left: 50px;
+}
+.his{
+    cursor: pointer;
+}
+.date{
+    cursor: pointer;
+}
+.photo{
+    cursor: pointer;
+}
+.newLi{
+  padding-top: 1000px;
+  font-size: 80px;
+
 }
