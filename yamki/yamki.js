@@ -27,8 +27,15 @@ let li = document.querySelector('li')
 let div2 = document.getElementById('text-two');
 let div3 = document.getElementById('text-three');
 
+
 dates.addEventListener('click',()=> {
-  div1.innerHTML = 'В 1911г. в деревне живет максимально количество жителей-206.'
-  div2.innerHTML= ''
-  div3.innerHTML=''
+  
+  div2.remove()
+  div3.remove()
+  const newLi = document.createElement('li')
+  div1.textContent= 'egtadfrsga'
+  // ul.prepend(newLi)
+  // newLi.classList('newLi')
+
+  
 })
