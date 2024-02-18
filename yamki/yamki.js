@@ -22,20 +22,19 @@ ymaps.ready(init);
 let hist = document.getElementById('history');
 let photo = document.getElementById('photo');
 let dates = document.getElementById('dates');
-let div1 = document.getElementById('text-one');
 let li = document.querySelector('li')
 let div2 = document.getElementById('text-two');
 let div3 = document.getElementById('text-three');
 
 
 dates.addEventListener('click',()=> {
-  
-  div2.remove()
-  div3.remove()
-  const newLi = document.createElement('li')
-  div1.textContent= 'egtadfrsga'
-  // ul.prepend(newLi)
-  // newLi.classList('newLi')
+  let div1 = document.getElementById('text-one');
+  const ul = document.createElement('ul')
+  ul.append(
+    document.createElement('li').textContent = 'ПРИМЕР 1',
+    document.createElement('li').textContent = 'ПРИМЕР 2',
+    document.createElement('li').textContent = 'ПРИМЕР 3')
+dev1.innerHTML = '';
+div1.appendChild(ul);
 
-  
 })
