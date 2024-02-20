@@ -49,18 +49,17 @@ header{
     font-size: 30px;
     font-weight: 900;
 }
-ul{
+.tabs__item:not(._active) {
+    display: none;
+}
+.tabs__button{
+    padding-left: 60px;
     font-size: 38px;
     color: rgb(0, 0, 0);
     list-style: none;
     display: flex;
     padding-top: 10px;
-}
-li{
-    padding-left: 60px;
-}
-.ul{
-   cursor: pointer;
+    cursor: pointer;
    display: inline;
 }
 .text{
