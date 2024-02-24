@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    height: 1600px;
+    height: 1500px;
     width: 1500px;
     background-color: #ffecec;
 }
@@ -58,7 +58,7 @@ header{
 .buttonn{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-style: italic;
+    font-style: normal;
     background-color: #fff;
     color: #333;
     padding: 10px 20px;
@@ -99,7 +99,7 @@ header{
     padding-left: 50px;
 }
 #history{
-    width: 100%;
+    width: 1160px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff6f6;
@@ -108,8 +108,8 @@ header{
     font-size: 30px;
     line-height: 1.5;
     color: #313131;
-    margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 300px;
+    margin-top: 10px;
     font-family: "Lora", serif;
     font-style: normal;
 }
@@ -123,13 +123,122 @@ header{
     margin-top: 20px; 
 }
 .year1{
+    width: 390px;
+    height: 180px;
+    background-color: #b1b1b1;
+    font-size: 26px;
+    border-radius: 20px;
+    box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
+    -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
+    -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
 }
 .year2{
+    width: 390px;
+    height: 180px;
+    background-color: #b1b1b1;
+    border-radius: 20px;
+    box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
+    -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
+    -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
 }
 .year3{
-
+    width: 390px;
+    height: 180px;
+    background-color: #b1b1b1;
+    border-radius: 20px;
+    box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
+    -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
+    -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
+}
+.dates{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
 }
 .three_dates{
-    display: grid;
-    grid
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 200px;
+    margin-left: 300px;
+    align-items: center
+}
+.year1_1911{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #8c8c8c;
+    border-radius: 20px 20px 20px 20px;
+    border-bottom: 2px solid rgb(163, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffecec;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
+}
+/* p{
+    font-family: "Lora", serif;
+    font-style: normal;
+} */
+.year2_1979{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #8c8c8c;
+    border-radius: 20px 20px 20px 20px;
+    border-bottom: 2px solid rgb(163, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffecec;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
+}
+.year3_1980{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #8c8c8c;
+    border-radius: 20px 20px 20px 20px;
+    border-bottom: 2px solid rgb(163, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffecec;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
+}
+.year1_text{
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 10px;
+}
+.year2_text{
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 10px;
+}
+.year3_text{
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 10px;
 }
