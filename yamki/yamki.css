@@ -122,7 +122,7 @@ header{
 #text-three{
     margin-top: 20px; 
 }
-.year1{
+.year_first{
     width: 390px;
     height: 180px;
     background-color: #b1b1b1;
@@ -132,7 +132,7 @@ header{
     -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
     -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
 }
-.year2{
+.year_second{
     width: 390px;
     height: 180px;
     background-color: #b1b1b1;
@@ -141,7 +141,7 @@ header{
     -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
     -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
 }
-.year3{
+.year_third{
     width: 390px;
     height: 180px;
     background-color: #b1b1b1;
@@ -163,7 +163,7 @@ header{
     margin-left: 300px;
     align-items: center
 }
-.year1_1911{
+.Y_first_date{
     width: 100%;
     height: 50px;
     text-align: center;
@@ -181,11 +181,7 @@ header{
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
 }
-/* p{
-    font-family: "Lora", serif;
-    font-style: normal;
-} */
-.year2_1979{
+.Y_second_date{
     width: 100%;
     height: 50px;
     text-align: center;
@@ -203,7 +199,7 @@ header{
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
 }
-.year3_1980{
+.Y_third_date{
     width: 100%;
     height: 50px;
     text-align: center;
@@ -221,24 +217,57 @@ header{
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
 }
-.year1_text{
+.Y_first_text{
     font-family: "Lora", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     margin: 10px;
 }
-.year2_text{
+.Y_second_text{
     font-family: "Lora", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     margin: 10px;
 }
-.year3_text{
+.Y_third_text{
     font-family: "Lora", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     margin: 10px;
+}
+.img_yamki{
+    display: block;
+    width: 1000px;
+    height: 668px;
+    transition: 1.3s;
+}
+.img_yamki:hover{
+    transform: scale(1.1);
+}
+.block_img_yamki{
+    overflow: hidden;
+    width: 1000px;
+    height: 600px;
+    transition: 1.3s;
+
+}
+.block_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120%;
+    margin-top: 30px;
+    /* background-color: #313131; */
+
+}
+.tabs__button._active {
+    color: red
+}
+.block_img_yamki:hover{
+    -webkit-box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.55);
+   -moz-box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.55);
+   box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.55);
 }
