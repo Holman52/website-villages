@@ -1,10 +1,10 @@
 function init(){
     let map = new ymaps.Map('map', {
-        center: [56.58976277344582,44.27051624104106],
+        center: [56.668155, 44.309725],
         zoom: 16
     });
     
-    let placemark = new ymaps.Placemark([56.58956150347024,44.28223213001809], {}, {
+    let placemark = new ymaps.Placemark([56.668155, 44.309725], {}, {
 		});
 
     map.controls.remove('geolocationControl'); // удаляем геолокацию

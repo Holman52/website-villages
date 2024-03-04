@@ -17,7 +17,7 @@ body{
 
 }
 
-.yamki-txt{
+.grach_description{
     height: 388px;
     width: 438px;
     background-color: rgba(248, 248, 248,0.8);
@@ -26,13 +26,13 @@ body{
     margin: 150px;
     border-radius: 15px;
 }
-#h{
+.h{
     font-size: 48px;
     padding: 10px;
     margin-left: 10px;
     font-weight: 500;
 }
-#p{
+.p{
     font-size: 22px;
     width: 360px;
     margin-left: 20px;
@@ -243,7 +243,7 @@ border-radius: 50px;
     font-size: 25px;
     margin: 10px;
 }
-.blocks_img_yamki{
+.blocks_img_grach{
     display: flex;
     flex-direction: column;
     align-items: center;
