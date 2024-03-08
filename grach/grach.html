@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grach.css">
+    <title>Ямки</title>
+</head>
+<body>
+    <header>Ямки</header>
+    <selection сlass="spans">
+      <div class="container">
+        <div id="map">
+            <div class="yamki-txt">
+                <div id="h">Ямки</div>
+                <div id="p">урочище Ямки, городской округ Семёновский, Нижегородская область</div>
+                <div id="h">Статус</div>
+                <div id="p">не существует</div>
+                <div id="h">Тип</div>
+                <div id="p">деревня</div>
+            </div>
+        </div>
+    </div>
+</selection>
+        <main>
+            <div class="buttonn">
+                <div data-tab="history" class="tabs__button _active" >История
+                </div>
+                <div data-tab="dates" class="tabs__button">Важные даты
+                </div>
+                <div data-tab="photo" class="tabs__button">Фотографии
+                </div>
+            </div>
+        </main>
+        <footer>
+        <div class="content">
+            <div id="history" class="tabs__item _active txt">
+                <div id="text-one">Деревня Ямки была основана недалеко от крупной в
+                то время деревни Ежово в начале 1690-х годов. В 18-19 века была деревней средних размеров, 
+                но после того как через нее стал проходить основной тракт из Нижнего в Семенов,
+                стала расширяться. В 1911г. в деревне живет максимально количество жителей-206.
+            </div>
+            <div id="text-two">В советское время в деревне работает начальная школа,
+                до середины века деревня расширяется до 50 домов. После закрытия в 60-х годах школы
+                и укрупнения колхозов жители уезжают из деревни в массовом порядке, 
+                и уже в 1979 перепись насчитала в деревне всего 6 жителей.
+            </div>
+            <div id="text-three">Большинство домов (35-40 из 50) жители деревни разбирали
+                и увозили с собой при переезде.
+                Еще несколько домов рухнули со временем сами по себе. В 1989г.
+                в деревне стояло около 5-6 домов, в настоящее время остался только один дом.
+            </div>
+        </div>
+       <div class="tabs__item" id="dates">
+            <div class="three_dates">
+                <div class="year_first">
+                     <div class="Y_first_date">1911 год</div >
+                        <div class="Y_first_text">в деревне живет максимально количество жителей-206</div>
+                </div>
+                
+                <div class="year_second">
+                         <div class="Y_second_date">1979 год</div>
+                         <div class="Y_second_text">перепись насчитала в деревне всего 6 жителей</div>
+                </div>
+                
+                <div class="year_third">
+                         <div class="Y_third_date">1989 год</div>
+                         <div class="Y_third_text">в деревне стояло около 5-6 домов, в настоящее время остался только один дом</div>
+                </div>
+          </div>
+       </div>
+       <div class="tabs__item" id="photo">
+        <div class="block_flex">
+            <div class="blocks_img_yamki">
+               <div class="img_block">
+                <img src="../img/yamki.jpg" alt="" class="img_yamki">
+            </div>
+            <div class="img_text">Единственный дом в деревне</div>
+            </div>
+        </div>
+       </div>
+    </div>
+        </footer>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=291a4602-4c0a-42a7-a57b-6baeb426966f API-ключ&lang=ru_RU">
+    </script>
+    <script src="grach.js" ></script>
+</body>
+</html>
