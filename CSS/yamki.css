@@ -26,13 +26,13 @@ body{
     margin: 150px;
     border-radius: 15px;
 }
-#h{
+.yamki-txt__title{
     font-size: 48px;
     padding: 10px;
     margin-left: 10px;
     font-weight: 500;
 }
-#p{
+.yamki-txt__description{
     font-size: 22px;
     width: 360px;
     margin-left: 20px;
@@ -55,7 +55,7 @@ header{
 .tabs__item:not(._active) {
     display: none;
 }
-.buttonn{
+.tabs{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -112,16 +112,10 @@ header{
     font-family: "Lora", serif;
     font-style: normal;
 }
-#text-one{ 
-    margin-top: 20px;
-}
-#text-two{
+.history__text{
     margin-top: 20px; 
 }
-#text-three{
-    margin-top: 20px; 
-}
-.year_first{
+.years__first{
     width: 390px;
     height: 180px;
     background-color: #b1b1b1;
@@ -131,7 +125,7 @@ header{
     -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
     -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
 }
-.year_second{
+.year__second{
     width: 390px;
     height: 180px;
     background-color: #b1b1b1;
@@ -140,7 +134,7 @@ header{
     -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
     -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
 }
-.year_third{
+.year__third{
     width: 390px;
     height: 180px;
     background-color: #b1b1b1;
@@ -154,7 +148,7 @@ header{
     justify-content: space-between;
     border-radius: 20px;
 }
-.three_dates{
+.yaers{
     display: flex;
     justify-content: space-between;
     width: 1200px;
@@ -162,7 +156,7 @@ header{
     margin-left: 300px;
     align-items: center
 }
-.Y_first_date{
+.years__first_date{
     width: 100%;
     height: 50px;
     text-align: center;
@@ -180,7 +174,7 @@ header{
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
 }
-.Y_second_date{
+.year__second_date{
     width: 100%;
     height: 50px;
     text-align: center;
@@ -198,7 +192,7 @@ header{
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
 }
-.Y_third_date{
+.year__third_date{
     width: 100%;
     height: 50px;
     text-align: center;
@@ -216,21 +210,21 @@ header{
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
 }
-.Y_first_text{
+.years__first_text{
     font-family: "Lora", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     margin: 10px;
 }
-.Y_second_text{
+.year__second_text{
     font-family: "Lora", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     margin: 10px;
 }
-.Y_third_text{
+.year__third_text{
     font-family: "Lora", serif;
     font-style: normal;
     font-weight: 400;

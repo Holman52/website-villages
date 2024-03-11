@@ -74,14 +74,14 @@ body{
     display: flex;
     justify-content: center;
 }
-.one{
+.yamki{
     width: 500px ;
     height: 600px;
     background-color: rgba(40, 40, 40, 0.745);
     border-radius: 100px;
     margin-top: 150px;
 }
-.one-name{
+.yamki_name{
     font-size: 70px;
     color: rgb(203, 203, 203);
     text-align: center;
@@ -93,7 +93,7 @@ body{
     
     
 }
-.one-txt{
+.yamki_txt{
     font-size: 40px ;
     color: rgb(255, 255, 255);
     width: 400px;
@@ -103,7 +103,7 @@ body{
     font-weight: 700;
     
 }
-.two{
+.grach{
     width: 500px ;
     height: 600px;
     background-color: rgba(40, 40, 40, 0.745);
@@ -112,7 +112,7 @@ body{
     margin-left: 50px;
     
 }
-.two-name{
+.grach_name{
     font-size: 70px;
     color: rgb(203, 203, 203);
     text-align: center;
@@ -123,7 +123,7 @@ body{
     color: transparent;
     
 }
-.two-txt{
+.grach_txt{
     font-size: 40px ;
     color: rgb(255, 255, 255);
     width: 420px;
@@ -133,7 +133,7 @@ body{
     font-weight: 700;
     
 }
-.three{
+.kolotush{
     width: 500px ;
     height: 600px;
     background-color: rgba(40, 40, 40, 0.745);
@@ -143,7 +143,7 @@ body{
     
     
 }
-.three-name{
+.kolotush_name{
     font-size: 70px;
     color: rgb(203, 203, 203);
     text-align: center;
@@ -155,7 +155,7 @@ body{
     color: transparent;
     
 }
-.three-txt{
+.kolotush_txt{
     font-size: 40px ;
     color: rgb(255, 255, 255);
     width: 420px;
@@ -172,20 +172,17 @@ button{
     height: 60px;
     font-size: 30px;
     color: rgb(255, 255, 255);
-a{
-    text-decoration: none;
-    color: inherit;
+    cursor: pointer;
 }
-}
-#oneB{
+.yamki_link{
     margin: 110px;
     margin-top: 148px;
 }
-.twoB{
+.grach_link{
     margin: 110px;
     margin-top: 197px;
 }
-.threeB{
+.kolotush_link{
     margin: 110px;
     margin-top:50px;
 }

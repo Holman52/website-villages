@@ -116,7 +116,7 @@ header{
 .text_history{
     margin-top: 20px;
 }
-.year_first{
+.years__first{
     width: 390px;
     height: 180px;
     background-color: #b1b1b1;
@@ -126,7 +126,7 @@ header{
     -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
     -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
 }
-.year_second{
+.years__second{
     width: 390px;
     height: 180px;
     background-color: #b1b1b1;
@@ -135,13 +135,7 @@ header{
     -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
     -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
 }
-.tabs__line._active{
- background-color: #333;
- width: 150px;
- height: 6px;
-border-radius: 50px;
-}
-.year_third{
+.years__third{
     width: 390px;
     height: 180px;
     background-color: #b1b1b1;
@@ -150,12 +144,12 @@ border-radius: 50px;
     -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
     -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
 }
-.dates{
+#dates{
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
 }
-.three_dates{
+.years{
     display: flex;
     justify-content: space-between;
     width: 1200px;
@@ -163,7 +157,7 @@ border-radius: 50px;
     margin-left: 300px;
     margin-top: 20px;
 }
-.Y_first_date{
+.years__first_date{
     width: 100%;
     height: 50px;
     text-align: center;
@@ -181,7 +175,7 @@ border-radius: 50px;
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
 }
-.Y_second_date{
+.years__second_date{
     width: 100%;
     height: 50px;
     text-align: center;
@@ -199,7 +193,7 @@ border-radius: 50px;
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
 }
-.Y_third_date{
+.years__third_date{
     width: 100%;
     height: 50px;
     text-align: center;
@@ -217,21 +211,21 @@ border-radius: 50px;
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
 }
-.Y_first_text{
+.years__first_text{
     font-family: "Lora", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     margin: 10px;
 }
-.Y_second_text{
+.years__second_text{
     font-family: "Lora", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     margin: 10px;
 }
-.Y_third_text{
+.years__third_text{
     font-family: "Lora", serif;
     font-style: normal;
     font-weight: 400;
