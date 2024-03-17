@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    height: 1600px;
+    height: 1500px;
     width: 1500px;
     background-color: #ffecec;
 }
@@ -104,7 +104,7 @@ header{
     background-color: #fff3f3;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 30px;
+    font-size: 32px;
     line-height: 1.5;
     color: #313131;
     margin-left: 300px;
@@ -112,6 +112,7 @@ header{
     font-family: "Lora", serif;
     font-style: normal;
     height: 750px;
+    margin-top: 5px;
 }
 .text_history{
     margin-top: 20px;
@@ -144,7 +145,7 @@ header{
     -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
     -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
 }
-#dates{
+.dates{
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
@@ -153,7 +154,7 @@ header{
     display: flex;
     justify-content: space-between;
     width: 1200px;
-    height: 750px;
+    height: 800px;
     margin-left: 300px;
     margin-top: 20px;
 }

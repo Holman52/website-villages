@@ -135,12 +135,6 @@ header{
     -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
     -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
 }
-.tabs__line._active{
- background-color: #333;
- width: 150px;
- height: 6px;
-border-radius: 50px;
-}
 .years__third{
     width: 390px;
     height: 180px;

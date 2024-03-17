@@ -16,7 +16,19 @@ body{
     width: 100%;
 
 }
-
+.yamki-txt__title{
+    font-size: 48px;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.yamki-txt__description{
+    font-size: 22px;
+    width: 360px;
+    margin-left: 20px;
+    color: rgb(50, 50, 50);
+    font-weight: 500;
+}
 .yamki-txt{
     height: 388px;
     width: 438px;
