@@ -2,28 +2,27 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #3b3b3b;
 }
-.page{
-    display: block;
+.container{
     width: 100%;
-    height: 2600px;
+    height: auto; 
 }
 .one-select{
     background-image: url('../img/jj.jpg');
-    background-size: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 35%;   
+    background-size: 100% 100%;
+    height: 90vh;
 }
 .main{
     display: flex;
-    justify-content: center;
-    padding: 110px;
+    justify-content: space-around;
+    padding: 200px;
 }
-.selectPage{
-    width: 740px;
-    height: 373px;
+ .selectPage{ 
+    width: 60%;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.1);
     font-size: 80px;
     border-radius: 50px;
@@ -33,11 +32,14 @@ body{
     margin-right: 20px;
     margin-top: 150px;
 }
-.nnImg{
-    display: block;
-    width: 670px;
-    height: 668px;
-    margin-bottom: 100px;
+.nnimg{
+    background-image: url('../img/nn.png');
+    background-size: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 60%;
+    height: 50vh;
+
 }
 .two-select{
     background-image: url('../img/pustota.JPEG');
@@ -45,13 +47,14 @@ body{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 34%;
+    height: auto;
     display: flex;
     justify-content: flex-end;
+    height: 100vh;
 }
 .ved{
-    width: 1027px;
-    height: 607px;
+    width: 55%;
+    height: 40vh;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 100px;
     margin: 100px;
@@ -60,8 +63,8 @@ body{
     padding: 10px;
 }
 .ved-text{
-   width: 900px;
-   height: 500px;
+   width: 90%;
+   height: auto;
    font-weight: 800;
    padding: 20px;
    padding-left: 80px ;
@@ -70,16 +73,24 @@ body{
 }
 .links{
     background-color: rgb(26, 26, 26);
-    height: 960px;
+    height: auto;
     display: flex;
     justify-content: center;
+    height: auto;
+    width: 100%;
+}
+.links_flex{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    margin-top: 150px;
 }
 .yamki{
-    width: 500px ;
-    height: 600px;
+    width: 27% ;
+    height: auto;
     background-color: rgba(40, 40, 40, 0.745);
     border-radius: 100px;
-    margin-top: 150px;
 }
 .yamki_name{
     font-size: 70px;
@@ -90,13 +101,11 @@ body{
     background: linear-gradient(180deg, #3b3b3b , #ffffff );
     -webkit-background-clip: text;
     color: transparent;
-    
-    
 }
 .yamki_txt{
     font-size: 40px ;
     color: rgb(255, 255, 255);
-    width: 400px;
+    width:  80%;
     margin-left: 60px ;
     margin-top: 35px;
     font-family: 'Inter', sans-serif;
@@ -104,13 +113,11 @@ body{
     
 }
 .grach{
-    width: 500px ;
+    width: 27%;
     height: 600px;
     background-color: rgba(40, 40, 40, 0.745);
     border-radius: 100px;
-    margin-top: 150px;
     margin-left: 50px;
-    
 }
 .grach_name{
     font-size: 70px;
@@ -134,16 +141,14 @@ body{
     
 }
 .kolotush{
-    width: 500px ;
+    width: 27% ;
     height: 600px;
     background-color: rgba(40, 40, 40, 0.745);
     border-radius: 100px;
-    margin-top: 150px;
     margin-left: 50px;
-    
-    
 }
 .kolotush_name{
+    width: 100%;
     font-size: 70px;
     color: rgb(203, 203, 203);
     text-align: center;
@@ -158,7 +163,7 @@ body{
 .kolotush_txt{
     font-size: 40px ;
     color: rgb(255, 255, 255);
-    width: 420px;
+    width: 80%;
     margin-left: 60px ;
     margin-top: 35px;
     font-family: 'Inter', sans-serif;
@@ -168,8 +173,9 @@ body{
 button{
     background-color: red;
     border-radius: 100px;
-    width: 280px;
-    height: 60px;
+    width: 50%;
+    padding: 10px;
+    height: auto;
     font-size: 30px;
     color: rgb(255, 255, 255);
     cursor: pointer;
