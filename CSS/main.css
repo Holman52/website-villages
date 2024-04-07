@@ -12,7 +12,6 @@ body{
     background-image: url('../img/jj.jpg');
     background-position: center;
     background-size: cover;
-    background-size: 100% 100%;
     height: 90vh;
 }
 .main{
@@ -79,47 +78,27 @@ body{
     height: auto;
     width: 100%;
 }
-.links_flex{
+.card-wrapper{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap-reverse;
     height: auto;
     width: 100%;
-    margin-top: 150px;
+    gap: 50px;
+    margin-top:150px;
+    padding: 0 0 50px 0;
 }
-.yamki{
-    width: 27% ;
-    height: auto;
+.card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
     background-color: rgba(40, 40, 40, 0.745);
     border-radius: 100px;
+    gap: 50px;
 }
-.yamki_name{
-    font-size: 70px;
-    color: rgb(203, 203, 203);
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 800;
-    background: linear-gradient(180deg, #3b3b3b , #ffffff );
-    -webkit-background-clip: text;
-    color: transparent;
-}
-.yamki_txt{
-    font-size: 40px ;
-    color: rgb(255, 255, 255);
-    width:  80%;
-    margin-left: 60px ;
-    margin-top: 35px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    
-}
-.grach{
-    width: 27%;
-    height: 600px;
-    background-color: rgba(40, 40, 40, 0.745);
-    border-radius: 100px;
-    margin-left: 50px;
-}
-.grach_name{
+.card_name{
     font-size: 70px;
     color: rgb(203, 203, 203);
     text-align: center;
@@ -130,22 +109,18 @@ body{
     color: transparent;
     
 }
-.grach_txt{
+.card_txt{
     font-size: 40px ;
     color: rgb(255, 255, 255);
     width: 420px;
-    margin-left: 50px ;
-    margin-top: 35px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     
 }
-.kolotush{
+/* .kolotush{
     width: 27% ;
-    height: 600px;
     background-color: rgba(40, 40, 40, 0.745);
     border-radius: 100px;
-    margin-left: 50px;
 }
 .kolotush_name{
     width: 100%;
@@ -167,28 +142,18 @@ body{
     margin-left: 60px ;
     margin-top: 35px;
     font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    
-}
+    font-weight: 700;   
+} */
 button{
     background-color: red;
     border-radius: 100px;
-    width: 50%;
     padding: 10px;
     height: auto;
     font-size: 30px;
     color: rgb(255, 255, 255);
     cursor: pointer;
+    /* margin-top: auto; */
 }
-.yamki_link{
-    margin: 110px;
-    margin-top: 148px;
-}
-.grach_link{
-    margin: 110px;
-    margin-top: 197px;
-}
-.kolotush_link{
-    margin: 110px;
-    margin-top:50px;
-}
+ .yamki_link{
+    margin-top: auto;
+ }
