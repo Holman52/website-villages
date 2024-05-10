@@ -3,6 +3,9 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: #3b3b3b;
+    width: 100%;
+
+
 }
 .container{
     width: 100%;
@@ -12,7 +15,7 @@ body{
     background-image: url('../img/jj.jpg');
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    /* height: 90vh; */
 }
 .main{
     display: flex;
@@ -49,11 +52,9 @@ body{
     height: auto;
     display: flex;
     justify-content: flex-end;
-    height: 100vh;
 }
 .ved{
     width: 55%;
-    height: 40vh;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 100px;
     margin: 100px;
@@ -64,7 +65,7 @@ body{
 .ved-text{
    width: 90%;
    height: auto;
-   font-weight: 800;
+   font-weight: 600;
    padding: 20px;
    padding-left: 80px ;
    font-family: 'Montserrat', sans-serif;
@@ -75,7 +76,6 @@ body{
     height: auto;
     display: flex;
     justify-content: center;
-    height: auto;
     width: 100%;
 }
 .card-wrapper{
@@ -89,17 +89,17 @@ body{
     padding: 0 0 50px 0;
 }
 .card{
-    width: 20%;
+    flex: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     background-color: rgba(40, 40, 40, 0.745);
     border-radius: 100px;
-    gap: 50px;
+    gap: 40px;
 }
 .card_name{
-    font-size: 70px;
+    font-size: 60px;
     color: rgb(203, 203, 203);
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -110,40 +110,12 @@ body{
     
 }
 .card_txt{
+    width: 70%;
     font-size: 40px ;
     color: rgb(255, 255, 255);
-    width: 420px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    
 }
-/* .kolotush{
-    width: 27% ;
-    background-color: rgba(40, 40, 40, 0.745);
-    border-radius: 100px;
-}
-.kolotush_name{
-    width: 100%;
-    font-size: 70px;
-    color: rgb(203, 203, 203);
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    margin-left: 6px;
-    font-weight: 800;
-    background: linear-gradient(180deg, #3b3b3b , #ffffff );
-    -webkit-background-clip: text;
-    color: transparent;
-    
-}
-.kolotush_txt{
-    font-size: 40px ;
-    color: rgb(255, 255, 255);
-    width: 80%;
-    margin-left: 60px ;
-    margin-top: 35px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;   
-} */
 button{
     background-color: red;
     border-radius: 100px;
@@ -157,3 +129,42 @@ button{
  .yamki_link{
     margin-top: auto;
  }
+ @media screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+    .nnimg{
+        background-image: url('../img/nn666.png');
+    }
+    .main{
+        padding: 20px;
+    }
+    .selectPage{
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    .one-select{
+        background-image: url('../img/jj576.jpg');
+    }
+    .ved{
+        border-radius: 10px;
+        font-size: 20px;
+        margin: 0px;
+        width:90%;
+        height: 70vh;
+        margin-left: 10px;
+        padding-top: 20px;
+
+    }
+    .ved-text{
+        padding: 0px;
+        padding-left: 10px;
+        align-items: center;
+    }
+    .two-select{
+        height: 100vh;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+}
