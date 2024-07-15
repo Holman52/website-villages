@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     height: 1500px;
-    width: 1500px;
+    /* width: 1500px; */
     background-color: #ffecec;
 }
 #map{
@@ -14,7 +14,8 @@ body{
 .container{
     height: 700px;
     width: 100%;
-
+    
+ 
 }
 .yamki-txt__title{
     font-size: 48px;

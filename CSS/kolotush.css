@@ -5,12 +5,12 @@ body{
     background-color: #ffecec;
 }
 #map{
-    height: 700px;
+    height: 55vh;
     width: 100%;
     position: absolute;
 }
 .container{
-    height: 700px;
+    /* height: 55px; */
     width: 100%;
 }
 

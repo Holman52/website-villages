@@ -24,7 +24,6 @@ const tabsButtons = document.querySelectorAll('.tabs__button');
 tabsButtons.forEach(btn => {
   btn.addEventListener('click', () => {
     const prevActiveItem = document.querySelector('.tabs__item._active');
-    const prevActiveLine = document.querySelector('.tabs__line._active')
     const prevActiveButton = document.querySelector('.tabs__button._active');
 
     if (prevActiveButton) {

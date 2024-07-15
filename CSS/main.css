@@ -4,8 +4,6 @@ body{
     padding: 0px;
     background-color: #3b3b3b;
     width: 100%;
-
-
 }
 .container{
     width: 100%;
@@ -166,5 +164,38 @@ button{
         display: block;
         justify-content: center;
         align-items: center;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px) {
+    .container{
+        max-width: 100%;
+    }
+    .selectPage{
+        font-size: 40px;
+        margin: 20px;
+        margin-top: 0;
+        padding: 0;
+    }
+    .one-select{
+        /* background-image: url('../img/jj768.jpg'); */
+    }
+    .two-select{
+        justify-content: center;
+    }
+    .ved{
+    width: 80%;
+    margin: 20px;
+    font-size: 30px;
+    /* padding: 0px; */
+    }
+    .ved-text{
+    padding: 30px
+    }
+    .main{
+        padding: 30px;
+    }
+    .card_txt{
+        font-size: 30px;
+        margin-left: -20px;
     }
 }

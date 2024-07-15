@@ -6,20 +6,23 @@ body{
     width: 1500px;
     background-color: #ffecec;
 }
+.time_div{
+    display: block;
+}
 #map{
-    height: 700px;
+    height: 70vh;
     width: 100%;
     position: absolute;
 }
 .container{
-    height: 700px;
+    height: 70vh;
     width: 100%;
 
 }
 
 .grach_description{
-    height: 388px;
-    width: 438px;
+    height: auto;
+    width: 30%;
     background-color: rgba(248, 248, 248,0.8);
     z-index: 1;
     position: absolute;
@@ -40,8 +43,8 @@ body{
     font-weight: 500;
 }
 header{
-    width: 200px;
-    height: 41px;
+    width: 10%;
+    height: auto;
     background-color: rgb(247, 247, 247);
     position: absolute;
     z-index: 2;
@@ -71,6 +74,7 @@ header{
     text-decoration: none;
     color: black;
     position: relative;
+    width: 80%;
 
 }
 .buttonn a{
@@ -97,8 +101,8 @@ header{
     padding-top: 30px;
     padding-left: 50px;
 }
-#history{
-    width: 1160px;
+.history{
+    width: 75%;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff3f3;
@@ -107,7 +111,7 @@ header{
     font-size: 30px;
     line-height: 1.5;
     color: #313131;
-    margin-left: 300px;
+    margin-left: 330px;
     margin-top: 10px;
     font-family: "Lora", serif;
     font-style: normal;
@@ -305,3 +309,10 @@ header{
     font-weight: 600;
     color: #333;
 }
+ @media  screen and (max-width: 576px){
+    .buttonn{
+        margin-left: 10px;
+        
+    }
+}
+     
