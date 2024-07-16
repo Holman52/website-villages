@@ -23,7 +23,7 @@ body{
  .selectPage{ 
     width: 60%;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(94, 93, 93, 0.165);
     font-size: 80px;
     border-radius: 50px;
     color: rgb(255, 255, 255);
@@ -175,6 +175,8 @@ button{
         margin: 20px;
         margin-top: 0;
         padding: 0;
+        width: 70%;
+        padding-left: 30px;
     }
     .one-select{
         /* background-image: url('../img/jj768.jpg'); */
@@ -199,3 +201,30 @@ button{
         margin-left: -20px;
     }
 }
+@media (min-width: 769px) and (max-width: Для небольших ноутбуков и средних устройств ) {
+    .selectPage{
+        font-size: 60px;
+        margin: 10px;
+        padding-left: 0px;
+        padding-top: 0px;
+        margin-right: 0px;
+        width: 80%;
+        padding-left: 30px;
+    }
+    .main{
+        padding: 30px;
+    }
+    .ved{
+        width: 80%;
+        margin: 20px;
+        font-size: 30px;
+        /* padding: 0px; */
+        }
+        .ved-text{
+        padding: 30px;
+        }
+        .card_txt{
+            margin-left: -30px;
+        }
+  }
+  
