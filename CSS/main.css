@@ -17,8 +17,8 @@ body{
 }
 .main{
     display: flex;
-    justify-content: space-around;
-    padding: 200px;
+    justify-content: space-between;
+    padding: 150px;
 }
  .selectPage{ 
     width: 60%;
@@ -30,7 +30,7 @@ body{
     padding-left: 20px;
     padding-top: 20px;
     margin-right: 20px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 .nnimg{
     background-image: url('../img/nn.png');
@@ -201,7 +201,7 @@ button{
         margin-left: -20px;
     }
 }
-@media (min-width: 769px) and (max-width: Для небольших ноутбуков и средних устройств ) {
+@media (min-width: 769px) and (max-width: 1024px ) {
     .selectPage{
         font-size: 60px;
         margin: 10px;
@@ -227,4 +227,9 @@ button{
             margin-left: -30px;
         }
   }
-  
+  @media (min-width: 1025px) and (max-width: 1920px ){
+    .selectPage{
+        width: 90%;
+        font-size: 75px
+    }
+  }
