@@ -21,12 +21,11 @@ body{
 }
 
 .grach_description{
-    height: auto;
-    width: 30%;
+    width: 25%;
     background-color: rgba(248, 248, 248,0.8);
     z-index: 1;
     position: absolute;
-    margin: 150px;
+    margin: 100px;
     border-radius: 15px;
 }
 .h{
@@ -43,8 +42,8 @@ body{
     font-weight: 500;
 }
 header{
-    width: 10%;
-    height: auto;
+    width: 200px;
+    height: 41px;
     background-color: rgb(247, 247, 247);
     position: absolute;
     z-index: 2;
@@ -63,19 +62,18 @@ header{
     font-weight: 500;
     font-style: normal;
     background-color: #fff;
-    color: #333;
+    /* color: #333; */
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    margin-left: 20%;
     margin-top: 10px;
     border-radius: 10px;
     text-decoration: none;
     color: black;
     position: relative;
     width: 80%;
-
+    margin-left : 10%;
 }
 .buttonn a{
     color: #333;
@@ -102,33 +100,34 @@ header{
     padding-left: 50px;
 }
 .history{
-    width: 75%;
+    width: 69%;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff3f3;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 30px;
+    font-size: 32px;
     line-height: 1.5;
     color: #313131;
-    margin-left: 330px;
+    margin-left: 15%;
     margin-top: 10px;
     font-family: "Lora", serif;
     font-style: normal;
-    height: 750px;
+    /* height: 750px; */
+    margin-top: 5px;
 }
 .text_history{
     margin-top: 20px;
 }
 .years__first{
     width: 390px;
-    height: 180px;
     background-color: #b1b1b1;
     font-size: 26px;
     border-radius: 20px;
     box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
     -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
-    -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
+    -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
+    margin: 10px;
 }
 .years__second{
     width: 390px;
@@ -315,4 +314,28 @@ header{
         
     }
 }
-     
+@media (min-width: 1025px) and (max-width: 1520px ){
+    .yamki_description{
+        width: 360px;
+    }
+    .h{
+        font-size: 40px;
+    }
+    .p{
+        font-size: 15px;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1024px ) {
+    .yamki_description{
+        width: 360px;
+        margin: 50px;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .h{
+        font-size: 40px;
+    }
+    .p{
+        font-size: 15px;
+    }
+}    
