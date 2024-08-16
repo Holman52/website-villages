@@ -264,9 +264,4 @@ header{
     .p{
         font-size: 15px;
     }
-    .blocks_img__kolotush{
-        display: grid;
-        grid-template-columns: 1fr; /* Одна колонка */
-        gap: 10px; /* Расстояние между блоками */
-    }
-  }
+}
