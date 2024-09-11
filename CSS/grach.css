@@ -2,8 +2,6 @@
 body{
     margin: 0;
     padding: 0;
-    height: 1500px;
-    width: 1500px;
     background-color: #ffecec;
 }
 .time_div{
@@ -119,7 +117,7 @@ header{
 .text_history{
     margin-top: 20px;
 }
-.years__first{
+.years__card{
     width: 390px;
     background-color: #b1b1b1;
     font-size: 26px;
@@ -129,24 +127,6 @@ header{
     -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
     margin: 10px;
 }
-.years__second{
-    width: 390px;
-    height: 180px;
-    background-color: #b1b1b1;
-    border-radius: 20px;
-    box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
-    -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
-    -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
-}
-.years__third{
-    width: 390px;
-    height: 180px;
-    background-color: #b1b1b1;
-    border-radius: 20px;
-    box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
-    -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
-    -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
-}
 .dates{
     display: flex;
     justify-content: space-between;
@@ -155,12 +135,12 @@ header{
 .years{
     display: flex;
     justify-content: space-between;
-    width: 1200px;
-    height: 750px;
-    margin-left: 300px;
+    width: 80%;
+    flex-wrap: wrap-reverse;
+    margin-left: 11%;
     margin-top: 20px;
 }
-.years__first_date{
+.years__card_date{
     width: 100%;
     height: 50px;
     text-align: center;
@@ -178,57 +158,7 @@ header{
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
 }
-.years__second_date{
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    background-color: #8c8c8c;
-    border-radius: 20px 20px 20px 20px;
-    border-bottom: 2px solid rgb(163, 1, 1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffecec;
-    font-family: "Roboto", sans-serif;
-    font-weight: 800;
-    font-size: 30px;
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
-}
-.years__third_date{
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    background-color: #8c8c8c;
-    border-radius: 20px 20px 20px 20px;
-    border-bottom: 2px solid rgb(163, 1, 1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffecec;
-    font-family: "Roboto", sans-serif;
-    font-weight: 800;
-    font-size: 30px;
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
-}
-.years__first_text{
-    font-family: "Lora", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    margin: 10px;
-}
-.years__second_text{
-    font-family: "Lora", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    margin: 10px;
-}
-.years__third_text{
+.years__card_text{
     font-family: "Lora", serif;
     font-style: normal;
     font-weight: 400;
@@ -239,15 +169,17 @@ header{
     color: red
 }
 .block_img{
-    width: 1160px;
+    flex-wrap: wrap;  
+    width: 70%;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff3f3;
-    height: 750px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-left: 300px;
+    margin-left: 15%;
     margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .blocks_img__grach{
     display: flex;
@@ -315,7 +247,7 @@ header{
     }
 }
 @media (min-width: 1025px) and (max-width: 1520px ){
-    .yamki_description{
+    .grach_description{
         width: 360px;
     }
     .h{
@@ -324,9 +256,10 @@ header{
     .p{
         font-size: 15px;
     }
+
   }
   @media (min-width: 769px) and (max-width: 1024px ) {
-    .yamki_description{
+    .grach_description{
         width: 360px;
         margin: 50px;
         margin-top: 150px;
@@ -337,5 +270,8 @@ header{
     }
     .p{
         font-size: 15px;
+    }
+    .years{
+        margin-left: 25%;
     }
 }    
