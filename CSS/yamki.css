@@ -2,50 +2,32 @@
 body{
     margin: 0;
     padding: 0;
-    height: 1500px;
-    /* width: 1500px; */
     background-color: #ffecec;
 }
 #map{
-    height: 700px;
+    height: 70vh;
     width: 100%;
-    position: absolute;
+    display: flex;
+    justify-content: flex-start;
 }
 .container{
-    height: 700px;
     width: 100%;
-    
- 
 }
-.yamki-txt__title{
-    font-size: 48px;
-    padding: 10px;
-    margin-left: 10px;
-    font-weight: 500;
-}
-.yamki-txt__description{
-    font-size: 22px;
-    width: 360px;
-    margin-left: 20px;
-    color: rgb(50, 50, 50);
-    font-weight: 500;
-}
-.yamki-txt{
-    height: 388px;
-    width: 438px;
+.yamki_description{
+    width: 25%;
     background-color: rgba(248, 248, 248,0.8);
     z-index: 1;
     position: absolute;
-    margin: 150px;
+    margin: 100px;
     border-radius: 15px;
 }
-.yamki-txt__title{
+.h{
     font-size: 48px;
     padding: 10px;
     margin-left: 10px;
     font-weight: 500;
 }
-.yamki-txt__description{
+.p{
     font-size: 22px;
     width: 360px;
     margin-left: 20px;
@@ -73,18 +55,18 @@ header{
     font-weight: 500;
     font-style: normal;
     background-color: #fff;
-    color: #333;
+    /* color: #333; */
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    margin-left: 20%;
     margin-top: 10px;
     border-radius: 10px;
     text-decoration: none;
     color: black;
     position: relative;
-
+    width: 80%;
+    margin-left : 10%;
 }
 .buttonn a{
     color: #333;
@@ -111,65 +93,45 @@ header{
     padding-left: 50px;
 }
 #history{
-    width: 1160px;
+    width: 69%;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff3f3;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 30px;
+    font-size: 32px;
     line-height: 1.5;
     color: #313131;
-    margin-left: 300px;
+    margin-left: 15%;
     margin-top: 10px;
     font-family: "Lora", serif;
     font-style: normal;
+    margin-top: 5px;
 }
-.history__text{
-    margin-top: 20px; 
-}
-.years__first{
+.years__card{
     width: 390px;
-    height: 180px;
     background-color: #b1b1b1;
     font-size: 26px;
     border-radius: 20px;
     box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
     -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
-    -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
-}
-.year__second{
-    width: 390px;
-    height: 180px;
-    background-color: #b1b1b1;
-    border-radius: 20px;
-    box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
-    -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
-    -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
-}
-.year__third{
-    width: 390px;
-    height: 180px;
-    background-color: #b1b1b1;
-    border-radius: 20px;
-    box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
-    -webkit-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
-    -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset
+    -moz-box-shadow: -2px -2px 7px -1px rgba(0,0,0,0.42) inset;
+    margin: 10px;
 }
 .dates{
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
 }
-.yaers{
+.years{
     display: flex;
     justify-content: space-between;
-    width: 1200px;
-    height: 200px;
-    margin-left: 300px;
-    align-items: center
+    width: 80%;
+    flex-wrap: wrap-reverse;
+    margin-left: 11%;
+    margin-top: 20px;
 }
-.years__first_date{
+.years__card_date{
     width: 100%;
     height: 50px;
     text-align: center;
@@ -187,57 +149,7 @@ header{
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
 }
-.year__second_date{
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    background-color: #8c8c8c;
-    border-radius: 20px 20px 20px 20px;
-    border-bottom: 2px solid rgb(163, 1, 1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffecec;
-    font-family: "Roboto", sans-serif;
-    font-weight: 800;
-    font-size: 30px;
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
-}
-.year__third_date{
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    background-color: #8c8c8c;
-    border-radius: 20px 20px 20px 20px;
-    border-bottom: 2px solid rgb(163, 1, 1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffecec;
-    font-family: "Roboto", sans-serif;
-    font-weight: 800;
-    font-size: 30px;
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.71);
-}
-.years__first_text{
-    font-family: "Lora", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    margin: 10px;
-}
-.year__second_text{
-    font-family: "Lora", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    margin: 10px;
-}
-.year__third_text{
+.years__card_text{
     font-family: "Lora", serif;
     font-style: normal;
     font-weight: 400;
@@ -301,4 +213,30 @@ header{
     -webkit-box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.55);
    -moz-box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.55);
    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.55);
+}
+@media (min-width: 1025px) and (max-width: 1520px ){
+    .yamki_description{
+        width: 360px;
+    }
+    .h{
+        font-size: 40px;
+    }
+    .p{
+        font-size: 29px;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1024px ) {
+    .yamki_description{
+        width: 360px;
+        margin: 50px;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .h{
+        font-size: 40px;
+    }
+    .p{
+        font-size: 18px;
+    }
+    
 }

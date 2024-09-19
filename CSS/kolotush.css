@@ -107,7 +107,6 @@ header{
     margin-top: 10px;
     font-family: "Lora", serif;
     font-style: normal;
-    /* height: 750px; */
     margin-top: 5px;
 }
 .text_history{
@@ -248,7 +247,7 @@ header{
         font-size: 40px;
     }
     .p{
-        font-size: 15px;
+        font-size: 20px;
     }
   }
   @media (min-width: 769px) and (max-width: 1024px ) {
@@ -262,6 +261,7 @@ header{
         font-size: 40px;
     }
     .p{
-        font-size: 15px;
+        font-size: 18px;
     }
+    
 }
