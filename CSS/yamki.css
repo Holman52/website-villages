@@ -160,11 +160,11 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1160px;
+    width: 50%;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff3f3;
-    height: 650px;
+    /* height: 650px; */
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 30px;
@@ -227,7 +227,7 @@ header{
   }
   @media (min-width: 769px) and (max-width: 1024px ) {
     .yamki_description{
-        width: 360px;
+        width: 380px;
         margin: 50px;
         margin-top: 150px;
         margin-left: 20px;
@@ -238,5 +238,7 @@ header{
     .p{
         font-size: 18px;
     }
-    
+    .years{
+        margin-left: 25%;
+    }
 }
