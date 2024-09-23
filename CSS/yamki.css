@@ -160,22 +160,24 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff3f3;
-    /* height: 650px; */
+    height: 80vh;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 30px;
-    margin-left: 300px;
+    margin-left: 10%;
     margin-top: 5px;
-    font-family: "Lora", serif;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 .img_block{
-   width: 900px;
-   height: 500px;
+   width: 100%;
    overflow: hidden;
    border-radius: 20px;
    border: 2px solid rgb(255, 203, 203);
@@ -184,9 +186,11 @@ header{
    box-shadow: 1px 1px 9px 0px rgba(0, 0, 0, 0.29);
 }
 .img_yamki{
-    width: 900px;
-    height: 500px;;
+    width: 100%;
     transition: 1.3s;
+    height: 100%;
+    object-fit: cover;
+    scale: 1.1;
 }
 .img_yamki:hover{
     transform: scale(1.1);
@@ -195,16 +199,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120%;
+    width: 100%;
     margin-top: 15px;
-}
-.img_text{
-    text-align: center;
-    margin-top: 10px;
-    font-size: 35px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 .tabs__button._active {
     color: red;
@@ -224,6 +220,9 @@ header{
     .p{
         font-size: 29px;
     }
+    #history{
+        font-size: 26px;
+    }
   }
   @media (min-width: 769px) and (max-width: 1024px ) {
     .yamki_description{
@@ -240,5 +239,38 @@ header{
     }
     .years{
         margin-left: 25%;
+    }
+    #history{
+        font-size: 23px;
+    }
+}
+@media (max-width: 768px){
+    .tabs{
+        display: none;
+    }
+    .yamki_description{
+        width: 150px;
+        margin-left: 40px;
+        margin-top: 125px;
+    }
+    .h{
+        font-size: 20px;
+        margin-left: 10px;
+        font-weight: 600;
+    }
+    .p{
+        font-size: 15px;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 10%;
+        margin-top: -5px;
+    }
+    header{
+        margin-left: 30%;
+        font-size: 30px;
+        width: 150px;
+    }
+    #history{
+        font-size: 18px;
     }
 }
