@@ -51,6 +51,7 @@ header{
     display: none;
 }
 .tabs{
+    font-size: 33px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -78,8 +79,6 @@ header{
     background-color: #f5f5f5;
 }
 .tabs__button{
-    font-size: 33px;
-    color: rgb(0, 0, 0);
     list-style: none;
     display: flex;
     padding-top: 10px;
@@ -243,10 +242,15 @@ header{
     #history{
         font-size: 23px;
     }
+    .blocks_img_yamki{
+        height: 50vh;
+    }
 }
 @media (max-width: 768px){
     .tabs{
-        display: none;
+        font-size: 16px;
+        margin-left: 2%;
+        width: 86%;
     }
     .yamki_description{
         width: 150px;
@@ -272,5 +276,8 @@ header{
     }
     #history{
         font-size: 18px;
+    }
+    .blocks_img_yamki{
+        height: 30vh;
     }
 }

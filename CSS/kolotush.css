@@ -55,7 +55,7 @@ header{
     font-weight: 500;
     font-style: normal;
     background-color: #fff;
-    /* color: #333; */
+    font-size: 33px;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -79,8 +79,6 @@ header{
     background-color: #f5f5f5;
 }
 .tabs__button{
-    font-size: 33px;
-    color: rgb(0, 0, 0);
     list-style: none;
     display: flex;
     padding-top: 10px;
@@ -164,9 +162,9 @@ header{
     color: red
 }
 .block_img{
-    flex-wrap: wrap;  
     width: 70%;
     margin: 0 auto;
+    flex-wrap: wrap;
     padding: 20px;
     background-color: #fff3f3;
     border-radius: 10px;
@@ -180,15 +178,13 @@ header{
     gap: 10px;  */
 }
 .blocks_img__kolotush{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
     width: 100%;
     margin: 0 auto;
     height: 300px;
 }
 .block__first_img{
     width: 400px;
-    height: 300px;
+    height: 600px;
     overflow: hidden;
     border-radius: 50px;
     -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.54);
@@ -206,29 +202,29 @@ header{
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.54);
 }
 .img_kolotush2{
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    scale: 1.2;
+    object-fit: cover;
 }
 .img_kolotush1{
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    scale: 1.1;
+    object-fit: cover;
 }
 .block__third_img{
+    width: 600px;
     height: 400px;
-    width: 800px;
     border-radius: 20px;
-    margin-top: 1em;
-    margin-left: 30%;
-    margin-right: 30%;
     -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.54);
     -moz-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.54);
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.54);
-    /* overflow: hidden; */
+    overflow: hidden;
 
 }
 .img_kolotush3{
-    height: 400px;
-    width: 800px;
+    width: 100%;
+    scale: 1.1;
+    object-fit: cover;
 }
 .block_desription{
     margin-top: 15px;
@@ -262,6 +258,38 @@ header{
     }
     .p{
         font-size: 18px;
+    } 
+}
+@media (max-width: 768px){
+    .buttonn{
+        font-size: 16px;
+        margin-left: 2%;
+        width: 86%;
     }
-    
+    .grach_description{
+        width: 150px;
+        margin-left: 40px;
+        margin-top: 125px;
+    }
+    .h{
+        font-size: 20px;
+        margin-left: 10px;
+        font-weight: 600;
+    }
+    .p{
+        font-size: 15px;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 10%;
+        margin-top: -5px;
+    }
+    header{
+        margin-left: 30%;
+        font-size: 30px;
+        width: 150px;
+    }
+    #history{
+        font-size: 18px;
+        margin-left: 10%;
+    }
 }
