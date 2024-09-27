@@ -24,22 +24,16 @@ body{
     width: 60%;
     height: auto;
     background-color: rgba(94, 93, 93, 0.165);
-    font-size: 80px;
-    border-radius: 50px;
+    font-size: 20px;
+    border-radius: 25px;
     color: rgb(255, 255, 255);
     padding-left: 20px;
     padding-top: 20px;
     margin-right: 20px;
     margin-top: 50px;
 }
-.nnimg{
-    background-image: url('../img/nn.png');
-    background-size: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
-    width: 60%;
-    height: 50vh;
-
+img{
+    width: 400px;
 }
 .two-select{
     background-image: url('../img/pustota.JPEG');
@@ -59,10 +53,10 @@ body{
     font-size: 35px;
     color: rgb(255, 255, 255);
     padding: 10px;
+    height: auto;
 }
 .ved-text{
    width: 90%;
-   height: auto;
    font-weight: 600;
    padding: 20px;
    padding-left: 80px ;
@@ -131,25 +125,26 @@ button{
     .container{
         max-width: 100%;
     }
-    .nnimg{
-        background-image: url('../img/nn666.png');
-    }
     .main{
         padding: 20px;
+        height: 20vh;
     }
     .selectPage{
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 0px;
+        width: 150px;
     }
     .one-select{
         background-image: url('../img/jj576.jpg');
+    }
+    img{
+        width: 100px;
     }
     .ved{
         border-radius: 10px;
         font-size: 20px;
         margin: 0px;
         width:90%;
-        height: 70vh;
         margin-left: 10px;
         padding-top: 20px;
 
@@ -164,6 +159,20 @@ button{
         display: block;
         justify-content: center;
         align-items: center;
+        padding-top: 40px;
+    }
+    .card_txt{
+        font-size: 30px;
+    }
+    .card{
+        padding: 10px;
+    }
+    .card-wrapper{
+        width: 90%;
+    }
+    .card_name{
+        font-size: 40px;
+        margin-top: 40px;
     }
 }
 @media screen and (min-width:577px) and (max-width:768px) {
@@ -171,12 +180,15 @@ button{
         max-width: 100%;
     }
     .selectPage{
-        font-size: 40px;
+        font-size: 34px;
         margin: 20px;
         margin-top: 0;
         padding: 0;
-        width: 70%;
+        width: 250px;
         padding-left: 30px;
+    }
+    img{
+        width: 200px;
     }
     .one-select{
         /* background-image: url('../img/jj768.jpg'); */
@@ -201,14 +213,14 @@ button{
         margin-left: -20px;
     }
 }
-@media (min-width: 769px) and (max-width: 1024px ) {
+@media (min-width: 769px) and (max-width: 1090px ) {
     .selectPage{
-        font-size: 60px;
+        font-size: 40px;
         margin: 10px;
         padding-left: 0px;
         padding-top: 0px;
         margin-right: 0px;
-        width: 80%;
+        width: 300px;
         padding-left: 30px;
     }
     .main{
@@ -230,7 +242,9 @@ button{
   @media (min-width: 1025px) and (max-width: 1920px ){
     .selectPage{
         width: 90%;
-        font-size: 75px
+        font-size: 60px
     }
-    
+    .nnimg{
+        width: 90vh;
+    }
   }
